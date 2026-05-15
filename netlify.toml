@@ -1,0 +1,29 @@
+# Netlify configuration for Bennett Veterinary Service
+# Plain static site — no build step required.
+
+[build]
+  publish = "."
+
+# Force www → root once we cut over to bennettvet.com on Netlify.
+# Uncomment AFTER the domain is connected (not before — won't affect anything until then):
+#
+# [[redirects]]
+#   from = "https://www.bennettvet.com/*"
+#   to = "https://bennettvet.com/:splat"
+#   status = 301
+#   force = true
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Sensible security headers for a static informational site
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

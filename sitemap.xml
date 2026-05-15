@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Top-level pages -->
+  <url>
+    <loc>https://bennettvet.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://bennettvet.com/in-home-pet-euthanasia/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bennettvet.com/services/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bennettvet.com/about/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bennettvet.com/contact/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- City / area pages -->
+  <url><loc>https://bennettvet.com/walnut-creek/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/lafayette/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/orinda/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/alamo/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/martinez/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/pleasant-hill/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/concord/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/clayton/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/moraga/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/el-sobrante/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/pinole/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/hercules/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/oakland-hills/</loc><priority>0.7</priority></url>
+  <url><loc>https://bennettvet.com/berkeley-hills/</loc><priority>0.7</priority></url>
+
+  <!-- Privacy / legal -->
+  <url>
+    <loc>https://bennettvet.com/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

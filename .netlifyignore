@@ -1,0 +1,14 @@
+# Files that exist locally but should NOT be deployed to Netlify
+# (developer-only / setup helpers / Claude Code config)
+
+.claude/
+PROGRESS.md
+setup-github-steps.html
+deploy-netlify-steps.html
+*.zip
+bennettvet-deploy.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

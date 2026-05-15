@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local environment / secrets
+.env
+.env.local
+
+# Build artifacts (none expected for plain HTML, but safety net)
+node_modules/
+dist/
+.cache/
+
+# Claude Code local-only settings (project settings.json IS committed)
+.claude/settings.local.json
+
+# Local-only setup helper docs (not part of the website)
+setup-github-steps.html
+
+# Local Netlify folder
+.netlify

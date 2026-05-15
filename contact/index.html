@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Bennett Veterinary Service | House-Call Veterinarian East Bay, CA</title>
+  <meta name="description" content="Contact Dr. David Bennett, DVM to schedule an in-home veterinary visit anywhere in the East Bay. Call (925) 519-2316 or send a message.">
+  <link rel="canonical" href="https://bennettvet.com/contact/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bennettvet.com/contact/">
+  <meta property="og:title" content="Contact Bennett Veterinary Service">
+  <meta property="og:description" content="Schedule a house-call veterinary visit in the East Bay. Call (925) 519-2316 or send a message.">
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-brand" href="/">
+        Bennett Veterinary Service
+        <span class="site-brand__tagline">House-Call Veterinarian &middot; East Bay, California</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services/">Wellness &amp; Medical Care</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/" aria-current="page">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a class="site-header__phone" href="tel:+19255192316">(925) 519-2316</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__inner">
+        <h1>Contact Us</h1>
+        <p class="hero__lead">Call to speak with Dr. Bennett directly, or send a message and we&rsquo;ll respond within one business day.</p>
+      </div>
+    </section>
+
+    <div class="layout-with-sidebar">
+      <div class="content">
+        <h2>Send a Message</h2>
+        <p>Use the form below to share your name, your pet&rsquo;s situation, and the best way to reach you. Dr. Bennett reads every message personally.</p>
+
+        <!--
+          FORMSPREE WIRING (action below) — David, here is what to do:
+          1. Sign in at https://formspree.io
+          2. Create a new form (name it "Bennett Vet Contact" or similar)
+          3. Copy the form's endpoint URL (looks like https://formspree.io/f/xxxxxxxx)
+          4. Replace the placeholder "YOUR_FORM_ID_HERE" in the action attribute below
+          5. In Formspree dashboard, configure the autoresponder:
+             - Subject: "Thank you — we received your message"
+             - From name: "Bennett Veterinary Service (do not reply)"
+             - Body should include: "This is an automated confirmation. Please do not reply
+               to this email. For follow-up, call (925) 519-2316 or use the contact form
+               at bennettvet.com/contact."
+          The standard "email" field below is automatically used as the Reply-To, so when
+          David clicks "Reply" in his inbox, his reply goes to the visitor — not to Formspree.
+        -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+          <div class="form-field">
+            <label for="name">Your name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Your email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <p class="form-help">We&rsquo;ll only use this to reply to you.</p>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
+
+          <div class="form-field">
+            <label for="city">Your city</label>
+            <input type="text" id="city" name="city" autocomplete="address-level2" placeholder="e.g. Walnut Creek">
+          </div>
+
+          <div class="form-field">
+            <label for="pet">Your pet&rsquo;s name and species (optional)</label>
+            <input type="text" id="pet" name="pet" placeholder="e.g. Buddy, Golden Retriever">
+          </div>
+
+          <div class="form-field">
+            <label for="message">How can we help? <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <!-- Honeypot — bots fill this in; humans never see it. -->
+          <div style="position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;">
+            <label for="_gotcha">Leave this field empty</label>
+            <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+
+          <input type="hidden" name="_subject" value="New inquiry from bennettvet.com">
+          <input type="hidden" name="_next" value="https://bennettvet.com/thank-you/">
+
+          <p>
+            <button type="submit" class="btn">Send Message</button>
+          </p>
+          <p class="form-help">By sending this message you agree to our <a href="/privacy/">privacy policy</a>.</p>
+        </form>
+      </div>
+
+      <aside class="sidebar" aria-label="Contact details">
+        <div class="sidebar__card sidebar__card--warm">
+          <h2>Call Dr. Bennett</h2>
+          <p style="font-size: 1.3rem; margin-bottom: 0.5rem;">
+            <a class="phone-link" href="tel:+19255192316">(925) 519-2316</a>
+          </p>
+          <p>Most of our scheduling and consultations begin with a phone call. Dr. Bennett is glad to talk with you directly.</p>
+        </div>
+
+        <div class="sidebar__card">
+          <h2>Hours</h2>
+          <p>Mon&ndash;Fri: 9:00 AM &ndash; 5:00 PM<br>
+          Sat: 8:00 AM &ndash; 2:00 PM<br>
+          Sun: Closed</p>
+          <p><em>All visits by appointment</em></p>
+        </div>
+
+        <div class="sidebar__card">
+          <h2>Service Area</h2>
+          <p>Walnut Creek, Lafayette, Orinda, Alamo, Martinez, Pleasant Hill, Concord, Clayton, Moraga, El Sobrante, Pinole, Hercules, Oakland Hills, Berkeley Hills, and surrounding East Bay communities.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h3>Bennett Veterinary Service</h3>
+        <p>House-call veterinary care<br>
+        Walnut Creek, CA 94598<br>
+        <a href="tel:+19255192316">(925) 519-2316</a></p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/in-home-pet-euthanasia/">In-Home Pet Euthanasia</a></li>
+          <li><a href="/services/">Wellness &amp; Medical Care</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon&ndash;Fri: 9:00 AM &ndash; 5:00 PM<br>
+        Sat: 8:00 AM &ndash; 2:00 PM<br>
+        Sun: Closed<br>
+        <em>By appointment</em></p>
+      </div>
+    </div>
+    <div class="regulatory">
+      <p>
+        <strong>David Bennett, DVM</strong> &middot; California Veterinary License #12991 &middot; DBA: Bennett Veterinary Service<br>
+        California Veterinary Medical Board: <a href="https://vmb.ca.gov">vmb.ca.gov</a> &middot; (916) 515-5220<br>
+        To obtain a copy of your animal patient&rsquo;s medical record, please contact us at <a href="tel:+19255192316">(925) 519-2316</a>.<br>
+        Hospital Permit #: [TO BE ADDED] &middot; &copy; 2026 Bennett Veterinary Service. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
