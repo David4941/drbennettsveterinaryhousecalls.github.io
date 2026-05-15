@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- White background -->
+  <rect width="600" height="600" fill="#FFFFFF"/>
+
+  <!-- TOP WORDMARK: Bennett Veterinary Service -->
+  <text x="300" y="90"
+        font-family="'Nunito', 'Quicksand', 'Helvetica Neue', Arial, sans-serif"
+        font-size="46"
+        font-weight="700"
+        fill="#1F4E79"
+        text-anchor="middle"
+        letter-spacing="1">
+    Bennett Veterinary Service
+  </text>
+
+  <!-- TAGLINE: In-Home Veterinary Care -->
+  <text x="300" y="130"
+        font-family="'Nunito', 'Quicksand', 'Helvetica Neue', Arial, sans-serif"
+        font-size="24"
+        font-weight="500"
+        fill="#4BAF7D"
+        text-anchor="middle"
+        letter-spacing="3">
+    In-Home Veterinary Care
+  </text>
+
+  <!-- ICON GROUP: House with hand supporting paw -->
+  <g transform="translate(300, 360)">
+
+    <!-- House silhouette: single-line style, rounded corners -->
+    <path d="M -130,40
+             L -130,-40
+             L 0,-140
+             L 130,-40
+             L 130,40"
+          fill="none"
+          stroke="#1F4E79"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- House base line -->
+    <line x1="-140" y1="40" x2="140" y2="40"
+          stroke="#1F4E79"
+          stroke-width="10"
+          stroke-linecap="round"/>
+
+    <!-- Warm gold sun accent behind house (top-right) -->
+    <g opacity="0.95">
+      <circle cx="95" cy="-95" r="22" fill="#D9A441"/>
+      <!-- Sun rays -->
+      <g stroke="#D9A441" stroke-width="4" stroke-linecap="round">
+        <line x1="95" y1="-130" x2="95" y2="-122"/>
+        <line x1="125" y1="-115" x2="119" y2="-110"/>
+        <line x1="135" y1="-95" x2="127" y2="-95"/>
+        <line x1="125" y1="-75" x2="119" y2="-80"/>
+        <line x1="65" y1="-115" x2="71" y2="-110"/>
+      </g>
+    </g>
+
+    <!-- Gentle curved hand cupping the paw (healing green) -->
+    <path d="M -70,30
+             Q -70,55 -40,60
+             L 40,60
+             Q 70,55 70,30"
+          fill="none"
+          stroke="#4BAF7D"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Paw print inside the house, resting in the hand -->
+    <g fill="#1F4E79">
+      <!-- Main pad -->
+      <ellipse cx="0" cy="20" rx="22" ry="18"/>
+      <!-- Top center toe -->
+      <ellipse cx="0" cy="-15" rx="9" ry="12"/>
+      <!-- Upper left toe -->
+      <ellipse cx="-22" cy="-5" rx="8" ry="11" transform="rotate(-20 -22 -5)"/>
+      <!-- Upper right toe -->
+      <ellipse cx="22" cy="-5" rx="8" ry="11" transform="rotate(20 22 -5)"/>
+    </g>
+
+  </g>
+
+  <!-- Subtle bottom anchor / website-ready spacing kept clean -->
+</svg>
