@@ -37,7 +37,7 @@ unchanged. The Netlify preview is on a separate subdomain.
 **All 14 city pages BUILT** (with consistent template, intro copy, SEO schema):
 - Walnut Creek, Lafayette, Orinda, Alamo, Martinez, Pleasant Hill, Concord, Clayton, Moraga, El Sobrante, Pinole, Hercules, Oakland Hills, Berkeley Hills.
 
-Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (Mt. Diablo), Concord (Mt. Diablo), Clayton (Mt. Diablo).
+Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (Mt. Diablo), Concord (Mt. Diablo), Clayton (downtown park / dancing children sculpture).
 
 **Optimized photos in `/images/`:**
 - `dr-bennett.jpg` — 659x800, 130 KB
