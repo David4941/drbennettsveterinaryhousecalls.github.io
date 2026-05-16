@@ -35,7 +35,15 @@
   <url><loc>https://bennettvet.com/orinda/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/alamo/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/martinez/</loc><priority>0.7</priority></url>
-  <url><loc>https://bennettvet.com/pleasant-hill/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/pleasant-hill/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/pleasant-hill-monument.jpg</image:loc>
+      <image:caption>The Pleasant Hill War Memorial, a white art deco tower with a soldier relief sculpture flanked by the American and California state flags, in Pleasant Hill, California. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Pleasant Hill.</image:caption>
+      <image:title>Pleasant Hill War Memorial — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url><loc>https://bennettvet.com/concord/</loc><priority>0.7</priority></url>
   <url>
     <loc>https://bennettvet.com/clayton/</loc>

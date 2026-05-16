@@ -302,6 +302,35 @@ main { flex: 1; }
   font-style: italic;
 }
 
+/* Floated right inset image (e.g., portrait photos in content) ----------- */
+.float-right-image {
+  float: right;
+  margin: 0 0 var(--space-sm) var(--space-md);
+  max-width: 220px;
+  width: 100%;
+}
+.float-right-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+.float-right-image figcaption {
+  font-size: 0.8rem;
+  color: var(--color-text-soft);
+  margin-top: var(--space-xs);
+  text-align: center;
+  font-style: italic;
+}
+@media (max-width: 640px) {
+  .float-right-image {
+    float: none;
+    margin: 0 0 var(--space-md);
+    max-width: 100%;
+  }
+}
+
 /* Footer ------------------------------------------------------------------- */
 
 .site-footer {
