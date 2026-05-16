@@ -154,6 +154,11 @@
     <loc>https://bennettvet.com/contact/</loc>
     <lastmod>2026-05-16T09:28:24-07:00</lastmod>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/dr-bennett-with-ruby.jpg</image:loc>
+      <image:caption>Dr. David Bennett seated on a wooden porch with his two dogs, Ruby and a companion border collie, in a relaxed outdoor setting</image:caption>
+      <image:title>Contact Bennett Veterinary Service | House-Call Veterinarian East Bay, CA</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://bennettvet.com/about/</loc>
