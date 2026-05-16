@@ -57,7 +57,15 @@
   <url><loc>https://bennettvet.com/moraga/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/el-sobrante/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/pinole/</loc><priority>0.7</priority></url>
-  <url><loc>https://bennettvet.com/hercules/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/hercules/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/hercules-refugio-park.jpg</image:loc>
+      <image:caption>Twin fountains rise from a tranquil lake beside a lattice dome shelter at Refugio Valley Park in Hercules, California. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Hercules.</image:caption>
+      <image:title>Refugio Valley Park — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://bennettvet.com/piedmont/</loc>
     <priority>0.7</priority>
