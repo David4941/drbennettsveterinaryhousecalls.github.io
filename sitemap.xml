@@ -31,7 +31,15 @@
 
   <!-- City / area pages -->
   <url><loc>https://bennettvet.com/walnut-creek/</loc><priority>0.7</priority></url>
-  <url><loc>https://bennettvet.com/lafayette/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/lafayette/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/lafayette-mt-diablo.jpg</image:loc>
+      <image:caption>Mt. Diablo and its rocky North Peak rise above the wooded Lamorinda hills east of Lafayette, California — a familiar view from many Lafayette neighborhoods. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Lafayette.</image:caption>
+      <image:title>Mt. Diablo from Lafayette — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url><loc>https://bennettvet.com/orinda/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/alamo/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/martinez/</loc><priority>0.7</priority></url>
