@@ -27,6 +27,11 @@
     <loc>https://bennettvet.com/berkeley-hills/</loc>
     <lastmod>2026-05-16T09:28:24-07:00</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/berkeley-hills-vista.jpg</image:loc>
+      <image:caption>A panoramic vista from the Berkeley Hills looking west across the Berkeley flatlands toward San Francisco Bay and the distant city skyline, framed by a eucalyptus tree</image:caption>
+      <image:title>In-Home Pet Euthanasia in the Berkeley Hills, CA | Bennett Veterinary Service</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://bennettvet.com/clayton/</loc>
@@ -91,6 +96,11 @@
     <loc>https://bennettvet.com/moraga/</loc>
     <lastmod>2026-05-16T09:28:24-07:00</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/moraga-rheem-theatre.jpg</image:loc>
+      <image:caption>The Rheem Theatre marquee with its distinctive yellow and green art deco façade under a bright blue sky in Rheem Valley, Moraga, California</image:caption>
+      <image:title>In-Home Pet Euthanasia in Moraga, CA | Bennett Veterinary Service</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://bennettvet.com/oakland-hills/</loc>
@@ -152,7 +162,7 @@
   </url>
   <url>
     <loc>https://bennettvet.com/contact/</loc>
-    <lastmod>2026-05-16T09:28:24-07:00</lastmod>
+    <lastmod>2026-05-16T09:48:40-07:00</lastmod>
     <priority>0.6</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/dr-bennett-with-ruby.jpg</image:loc>
