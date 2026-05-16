@@ -58,6 +58,15 @@
   <url><loc>https://bennettvet.com/el-sobrante/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/pinole/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/hercules/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/piedmont/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/piedmont-park-exedra.jpg</image:loc>
+      <image:caption>The Piedmont Park Exedra, a stone arched pavilion with a bronze sculpture in its central niche, framed by oak trees and wooden benches, in Piedmont, California. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Piedmont.</image:caption>
+      <image:title>Piedmont Park Exedra — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url><loc>https://bennettvet.com/oakland-hills/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/berkeley-hills/</loc><priority>0.7</priority></url>
 

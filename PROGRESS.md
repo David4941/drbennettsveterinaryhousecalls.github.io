@@ -34,10 +34,10 @@ unchanged. The Netlify preview is on a separate subdomain.
 - `/thank-you/` — Form-submit redirect target
 - `/404.html` — Friendly not-found page
 
-**All 14 city pages BUILT** (with consistent template, intro copy, SEO schema):
-- Walnut Creek, Lafayette, Orinda, Alamo, Martinez, Pleasant Hill, Concord, Clayton, Moraga, El Sobrante, Pinole, Hercules, Oakland Hills, Berkeley Hills.
+**All 15 city pages BUILT** (with consistent template, intro copy, SEO schema):
+- Walnut Creek, Lafayette, Orinda, Alamo, Martinez, Pleasant Hill, Concord, Clayton, Moraga, El Sobrante, Pinole, Hercules, Piedmont, Oakland Hills, Berkeley Hills.
 
-Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (War Memorial — floated portrait inset), Concord (Mt. Diablo), Clayton (downtown park / dancing children sculpture, 16:9 hero).
+Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (War Memorial — floated portrait inset), Concord (Mt. Diablo), Clayton (downtown park / dancing children sculpture, 16:9 hero), Piedmont (Piedmont Park Exedra, 16:9 hero).
 
 **Optimized photos in `/images/`:**
 - `dr-bennett.jpg` — 659x800, 130 KB
