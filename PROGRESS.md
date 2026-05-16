@@ -79,7 +79,9 @@ Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (War
 ## Important constraints (do not change)
 
 - Live `bennettvet.com` (iMatrix) must remain undisturbed until launch.
-- Domain registrar: **register.com** (DNS will be changed there at launch).
+- Domain registrar: **register.com** (just registration; renewal happens there).
+- DNS host: **Cloudflare** (NS: doug.ns.cloudflare.com, chan.ns.cloudflare.com).
+  All MX/A/CNAME/TXT record changes happen at cloudflare.com, NOT register.com.
 - Keep `bennettvet.com` as primary domain (16 years of SEO equity).
 - No git pushes to remote until explicitly authorized.
 
