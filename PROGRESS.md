@@ -37,7 +37,7 @@ unchanged. The Netlify preview is on a separate subdomain.
 **All 15 city pages BUILT** (with consistent template, intro copy, SEO schema, and varied per-city body content to avoid Google duplicate-content flags — see 2026-05-17 rewrite below):
 - Walnut Creek, Lafayette, Orinda, Alamo, Martinez, Pleasant Hill, Concord, Clayton, Moraga, El Sobrante, Pinole, Hercules, Piedmont, Oakland Hills, Berkeley Hills.
 
-Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (War Memorial — floated portrait inset), Concord (Mt. Diablo), Clayton (downtown park / dancing children sculpture, 16:9 hero), Piedmont (Piedmont Park Exedra, 16:9 hero), Hercules (Refugio Valley Park fountains and dome, 16:9 hero), Lafayette (Mt. Diablo from Lamorinda hills, 16:9 hero), Martinez (Martinez Marina along Carquinez Strait, 16:9 hero).
+Photos in place on: Walnut Creek (bridges), Orinda (theater), Pleasant Hill (War Memorial — floated portrait inset), Concord (Mt. Diablo), Clayton (downtown park / dancing children sculpture, 16:9 hero), Piedmont (Piedmont Park Exedra, 16:9 hero), Hercules (Refugio Valley Park fountains and dome, 16:9 hero), Lafayette (Mt. Diablo from Lamorinda hills, 16:9 hero), Martinez (Martinez Marina along Carquinez Strait, 16:9 hero), Pinole (Welcome to Pinole city sign — square floated inset).
 
 **Optimized photos in `/images/`:**
 - `dr-bennett.jpg` — 659x800, 130 KB

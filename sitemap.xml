@@ -72,7 +72,15 @@
   </url>
   <url><loc>https://bennettvet.com/moraga/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/el-sobrante/</loc><priority>0.7</priority></url>
-  <url><loc>https://bennettvet.com/pinole/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/pinole/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/pinole-city-sign.jpg</image:loc>
+      <image:caption>The 'Welcome to City of Pinole' stone monument sign with the city seal and civic emblems, surrounded by garden landscaping, in Pinole, California. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Pinole.</image:caption>
+      <image:title>Welcome to Pinole — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://bennettvet.com/hercules/</loc>
     <priority>0.7</priority>
