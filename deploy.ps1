@@ -32,4 +32,4 @@ Write-Host "Deploying to Netlify..." -ForegroundColor Cyan
 # We avoid 'netlify build' because the build command is meant for Netlify's
 # Linux build servers (python3 alias); on Windows we run the Python script
 # directly above.
-netlify deploy --prod --dir="."
+netlify deploy --prod --dir="." --no-build
