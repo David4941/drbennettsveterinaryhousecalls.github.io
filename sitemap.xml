@@ -42,7 +42,15 @@
   </url>
   <url><loc>https://bennettvet.com/orinda/</loc><priority>0.7</priority></url>
   <url><loc>https://bennettvet.com/alamo/</loc><priority>0.7</priority></url>
-  <url><loc>https://bennettvet.com/martinez/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://bennettvet.com/martinez/</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/cities/martinez-marina.jpg</image:loc>
+      <image:caption>Sailboats and motorboats moored at the Martinez Marina along the Carquinez Strait, in Martinez, California. Dr. Bennett provides in-home veterinary care and pet euthanasia throughout Martinez.</image:caption>
+      <image:title>Martinez Marina — Bennett Veterinary Service</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://bennettvet.com/pleasant-hill/</loc>
     <priority>0.7</priority>
