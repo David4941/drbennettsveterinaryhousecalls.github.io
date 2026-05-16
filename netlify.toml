@@ -19,11 +19,23 @@
   to = "/404.html"
   status = 404
 
-# Sensible security headers for a static informational site
+# Security headers for a static informational site
+#
+# HSTS note: currently set without includeSubDomains/preload because the site
+# is still served at bennettvet-preview.netlify.app (a subdomain we don't fully
+# control). After DNS cutover to bennettvet.com, upgrade to:
+#   Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+# and submit to https://hstspreload.org for browser-baked HTTPS enforcement.
+#
+# CSP note: form-action is restricted to formspree.io (the contact form's
+# endpoint). If a new third-party form/service is added, update form-action
+# here OR submissions will be silently blocked.
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
