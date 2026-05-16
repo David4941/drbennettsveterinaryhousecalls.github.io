@@ -302,6 +302,14 @@ main { flex: 1; }
   font-style: italic;
 }
 
+/* Rebrand notice — subtle "formerly Dr. Bennett's Veterinary House Calls" line */
+.rebrand-note {
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
 /* Floated right inset image (e.g., portrait photos in content) ----------- */
 .float-right-image {
   float: right;
