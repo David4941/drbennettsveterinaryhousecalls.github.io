@@ -95,6 +95,30 @@ Still text-only: **Alamo, Oakland Hills** (city pages) and **Home page hero, Ser
 6. DNS cutover at Cloudflare when David greenlights
 7. Sweep placeholders ([email TBD], [TO BE ADDED] for permit, [TO BE SET ON LAUNCH] for effective dates) once info is in hand
 
+## Email cutover — Google Workspace MX records (use on cutover day)
+
+Workspace account created 2026-05-18. Using Google's current simplified MX setup:
+
+```
+Type:     MX
+Name:     @
+Priority: 1
+Value:    smtp.google.com
+TTL:      3600 (or Auto)
+```
+
+ONE record only. (Legacy Workspace accounts used 5 records — `aspmx.l.google.com` + 4 alternates — but those are deprecated.)
+
+On cutover day, at Cloudflare DNS:
+1. REMOVE the current iMatrix MX record (`mx.imatrixbase.com`)
+2. ADD the Google MX record above
+3. Wait ~5-30 min for propagation
+4. Test: send an email to `davidbennett@bennettvet.com` from an external account; should arrive in Workspace Gmail
+
+The TXT verification record (`google-site-verification=LS3StdqdvdIrFi_VcQQZkxdTQ2Y822DHhpXZBbtFTB0`) is already in place at Cloudflare — added by iMatrix on 2026-05-18.
+
+Worth setting up at iMatrix BEFORE the MX cutover: forward `davidbennett@bennettvet.com` → `bennettvet@gmail.com` so any emails arriving at iMatrix during the brief cutover window get auto-forwarded as a safety net.
+
 ## Important constraints (do not change)
 
 - Live `bennettvet.com` (iMatrix) must remain undisturbed until launch.
