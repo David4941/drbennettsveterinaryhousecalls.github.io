@@ -8,6 +8,11 @@
     <loc>https://bennettvet.com/</loc>
     <lastmod>2026-05-16T15:54:52-07:00</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://bennettvet.com/images/david-gracie-1600.jpg</image:loc>
+      <image:caption>Dr. David Bennett, DVM listening to Gracie, a long-haired tabby cat, with a stethoscope during an in-home wellness exam in a kitchen in the East Bay, California, while Gracie's owner gently steadies her on the counter</image:caption>
+      <image:title>House-Call Veterinarian &amp; In-Home Pet Euthanasia in the East Bay | Bennett Veterinary Service</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://bennettvet.com/in-home-pet-euthanasia/</loc>
@@ -15,6 +20,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/rainbow-bridge.jpg</image:loc>
+      <image:caption>A dog and a cat looking together toward a rainbow bridge in a sunlit sky, symbolizing peace at end of life</image:caption>
       <image:title>In-Home Pet Euthanasia in the East Bay, CA | Compassionate End-of-Life Care | Bennett Veterinary Service</image:title>
     </image:image>
   </url>
@@ -49,6 +55,7 @@
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/cities/mt-diablo.jpg</image:loc>
+      <image:caption>Mount Diablo rising above the East Bay landscape as seen from Concord, California</image:caption>
       <image:title>In-Home Pet Euthanasia in Concord, CA | Bennett Veterinary Service</image:title>
     </image:image>
   </url>
@@ -113,6 +120,7 @@
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/cities/orinda-theater.jpg</image:loc>
+      <image:caption>The historic Orinda Theater on Camino Pablo, a landmark of downtown Orinda, California</image:caption>
       <image:title>In-Home Pet Euthanasia in Orinda, CA | Bennett Veterinary Service</image:title>
     </image:image>
   </url>
@@ -132,7 +140,7 @@
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/cities/pinole-city-sign.jpg</image:loc>
-      <image:caption>The </image:caption>
+      <image:caption>The 'Welcome to City of Pinole' stone monument sign with the city seal and civic emblems, surrounded by garden landscaping, in Pinole, California</image:caption>
       <image:title>In-Home Pet Euthanasia in Pinole, CA | Bennett Veterinary Service</image:title>
     </image:image>
   </url>
@@ -148,7 +156,7 @@
   </url>
   <url>
     <loc>https://bennettvet.com/services/</loc>
-    <lastmod>2026-05-16T15:54:52-07:00</lastmod>
+    <lastmod>2026-05-20T06:04:22-07:00</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/dr-bennett-wellness-exam.jpg</image:loc>
@@ -162,6 +170,7 @@
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/cities/walnut-creek-bridges.jpg</image:loc>
+      <image:caption>The Walnut Creek bridges along the Iron Horse Trail, a landmark of Walnut Creek, California</image:caption>
       <image:title>In-Home Pet Euthanasia in Walnut Creek, CA | Bennett Veterinary Service</image:title>
     </image:image>
   </url>
@@ -181,6 +190,7 @@
     <priority>0.5</priority>
     <image:image>
       <image:loc>https://bennettvet.com/images/dr-bennett.jpg</image:loc>
+      <image:caption>Portrait of Dr. David Bennett, DVM, house-call veterinarian serving the East Bay, California</image:caption>
       <image:title>About Dr. David Bennett, DVM | House-Call Veterinarian | Bennett Veterinary Service</image:title>
     </image:image>
   </url>

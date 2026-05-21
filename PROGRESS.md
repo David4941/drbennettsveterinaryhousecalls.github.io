@@ -1,6 +1,6 @@
 # Bennett Vet new-site — progress notes
 
-Updated: 2026-05-17. Resume in next session by reading this file first.
+Updated: 2026-05-20. Resume in next session by reading this file first.
 
 ## ✅ LIVE PREVIEW
 
@@ -79,7 +79,7 @@ Still text-only: **Alamo, Oakland Hills** (city pages) and **Home page hero, Ser
 8. **DNS cutover at Cloudflare** (not register.com) at launch — change A/CNAME records when David is ready. Planned: early week of 2026-05-19.
 9. **Email migration (Google Workspace)** — paused 2026-05-16 pending Cloudflare credentials. Resumes Monday 2026-05-18. Will create info@bennettvet.com (or davidbennett@bennettvet.com matching iMatrix). Need to: reclaim abandoned Workspace setup, verify domain via Cloudflare DNS, migrate email from iMatrix.
 10. **Google Business Profile rename** in progress — David requested change from "Dr. Bennett's Veterinary House Calls" to "Bennett Veterinary Service" on 2026-05-17. Google's review pending over the weekend. ⚠️ He initially put descriptors in the name field (keyword stuffing); needs to edit to just `Bennett Veterinary Service` (singular, no extra text). Descriptors go in Description field, not name.
-11. **Yelp rename + add "formerly" note** — old Yelp listing has 89 reviews and 16 photos under "Dr. Bennett's Veterinary House Calls." Needs rename via biz.yelp.com.
+11. **Yelp rename + add "formerly" note** — old Yelp listing has 89 reviews and 16 photos under "Dr. Bennett's Veterinary House Calls." ⚠️ 2026-05-20: Yelp Support confirmed they will NOT change the business name until the website at `bennettvet.com` displays the new name. This means the Yelp rename has to wait for DNS cutover (when the new Netlify site replaces the iMatrix site at `bennettvet.com`). Once cutover happens, request rename via biz.yelp.com — Yelp will verify by re-crawling the site.
 12. **Facebook rename + phone fix** — old FB page has wrong phone (510-758-7921). Should be (925) 519-2316. Old brand name still there.
 13. **Apple Maps (Apple Business Connect) and Bing Places** — likely still old brand.
 14. **Old iMatrix site rebrand** — David is updating the old site's title/header to "Bennett Veterinary Service / Compassionate Mobile Veterinary Service / Formerly Dr. Bennett's Veterinary House Calls" before DNS cutover.
@@ -89,11 +89,13 @@ Still text-only: **Alamo, Oakland Hills** (city pages) and **Home page hero, Ser
 
 1. Resume Google Workspace email setup (Cloudflare creds in hand Monday)
 2. Verify GBP name change result; sweep description + post if approved
-3. Yelp + Facebook renames (David's manual work, instruct as needed)
+3. Facebook rename + phone fix (David's manual work, instruct as needed)
 4. Continue photo additions as David delivers (Alamo, Oakland Hills, home, services)
 5. iMatrix old-site rebrand check-in
 6. DNS cutover at Cloudflare when David greenlights
-7. Sweep placeholders ([email TBD], [TO BE ADDED] for permit, [TO BE SET ON LAUNCH] for effective dates) once info is in hand
+7. **After cutover:** Yelp rename (Yelp requires the live `bennettvet.com` to show the new brand before they will rename — confirmed by Yelp Support 2026-05-20)
+8. Google Search Console setup once David has studied it — verify ownership via Cloudflare DNS TXT, submit sitemap.xml, monitor crawl coverage
+9. Sweep placeholders ([email TBD], [TO BE ADDED] for permit, [TO BE SET ON LAUNCH] for effective dates) once info is in hand
 
 ## Email cutover — Google Workspace MX records (use on cutover day)
 

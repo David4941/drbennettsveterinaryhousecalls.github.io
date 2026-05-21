@@ -139,18 +139,23 @@ not Friday). Plan ~30 min of focused work plus monitoring for 24 hrs.
 
 ──── YELP ────────────────────────────────────────────────────────────
 
-[ ] LEAVE the listing name as-is (Yelp won't change it)
-    Don't keep fighting Yelp; the 89 reviews are valuable and stay
-    attached either way.
+⚠ Yelp Support confirmed (2026-05-20) they will not change the business
+  name until bennettvet.com displays the new name. So the rename has
+  to wait for DNS cutover. The 89 reviews stay attached either way.
 
-[ ] Update Yelp business description (optional)
+[ ] AFTER DNS CUTOVER: request name change on biz.yelp.com
+    Where: biz.yelp.com → Business Information → Name
+    New name: Bennett Veterinary Service (singular, no extra text)
+    Yelp will re-crawl bennettvet.com to verify the new name is
+    displayed prominently in the header/title.
+
+[ ] Update Yelp business description (do this any time)
     Where: biz.yelp.com → Business Information → Description
-    Add: "Bennett Veterinary Service is the new name for this
-    practice — same Dr. Bennett, same in-home care."
+    Add: "Bennett Veterinary Service (formerly Dr. Bennett's
+    Veterinary House Calls) — same Dr. Bennett, same in-home care."
 
-[ ] If you want to retry the name change later (months from now),
-    do it from a biz.yelp.com account, not gmail support, with
-    documentation: CA Vet License #12991 + DBA filing.
+[ ] If Yelp still refuses after cutover, supply documentation:
+    CA Vet License #12991 + DBA filing for Bennett Veterinary Service.
 
 
 ──── FACEBOOK ────────────────────────────────────────────────────────
@@ -190,6 +195,34 @@ not Friday). Plan ~30 min of focused work plus monitoring for 24 hrs.
 
 [ ] Then go to https://www.bingplaces.com → sync from GBP
     Once GBP is correct, the sync pulls correct info into Bing.
+
+
+──── GOOGLE SEARCH CONSOLE (after cutover) ───────────────────────────
+
+What it is: free Google tool that shows how Google sees your site —
+which queries bring visitors, which pages are indexed, any crawl
+errors, mobile-usability issues, and Core Web Vitals scores. Set up
+once and check it monthly.
+
+[ ] Go to https://search.google.com/search-console
+    Sign in with the Google account you use for GBP / Workspace.
+
+[ ] Add property → "Domain" (not "URL prefix")
+    Enter: bennettvet.com
+    Domain property covers https/http/www/non-www in one shot.
+
+[ ] Verify ownership via DNS TXT record at Cloudflare
+    GSC will give you a string like google-site-verification=XXXX
+    Add it as a TXT record at Cloudflare (Name: @, Value: that string)
+    Click Verify in GSC. Takes a few minutes.
+
+[ ] Submit sitemap
+    Sitemaps → Add a new sitemap → enter "sitemap.xml" → Submit
+    Status should be "Success" within a day.
+
+[ ] Monthly check-in: look at Performance, Coverage, Core Web Vitals
+    First useful data takes ~7 days to populate. Don't worry about
+    rankings the first month; just confirm pages are being indexed.
 
 
 ──── iMATRIX OLD SITE ────────────────────────────────────────────────

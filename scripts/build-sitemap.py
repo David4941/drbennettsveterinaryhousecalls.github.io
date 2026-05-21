@@ -59,12 +59,15 @@ NOINDEX_RE = re.compile(
     r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex',
     re.IGNORECASE,
 )
+# Backreference (\1) ensures the closing quote matches the opener, so
+# content like  content="The 'Welcome to City of Pinole' sign..."  is
+# captured in full instead of truncating at the first internal apostrophe.
 OG_IMAGE_RE = re.compile(
-    r'<meta\s+property=["\']og:image["\']\s+content=["\']([^"\']+)["\']',
+    r'<meta\s+property=["\']og:image["\']\s+content=(["\'])(.*?)\1',
     re.IGNORECASE,
 )
 OG_IMAGE_ALT_RE = re.compile(
-    r'<meta\s+property=["\']og:image:alt["\']\s+content=["\']([^"\']+)["\']',
+    r'<meta\s+property=["\']og:image:alt["\']\s+content=(["\'])(.*?)\1',
     re.IGNORECASE,
 )
 TITLE_RE = re.compile(r"<title>([^<]+)</title>", re.IGNORECASE)
@@ -110,9 +113,9 @@ def extract_image(html: str) -> dict | None:
     m = OG_IMAGE_RE.search(html)
     if not m:
         return None
-    url = unescape(m.group(1))
+    url = unescape(m.group(2))
     alt_m = OG_IMAGE_ALT_RE.search(html)
-    caption = unescape(alt_m.group(1)) if alt_m else ""
+    caption = unescape(alt_m.group(2)) if alt_m else ""
     title_m = TITLE_RE.search(html)
     title = unescape(title_m.group(1).strip()) if title_m else ""
     return {"url": url, "caption": caption, "title": title}
