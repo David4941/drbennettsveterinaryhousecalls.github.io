@@ -1,6 +1,25 @@
 # Bennett Vet new-site — progress notes
 
-Updated: 2026-05-20. Resume in next session by reading this file first.
+Updated: 2026-05-21. Resume in next session by reading this file first.
+
+## 🔔 ACTIVE: Domain transfer in flight (2026-05-21 → ~2026-05-28)
+
+iMatrix released the auth code on 2026-05-21 (4 days earlier than projected).
+David initiated the transfer at GoDaddy the same day.
+
+- Auth code (DO NOT share): stored only in David's email. After transfer
+  completes, the code becomes useless and should be discarded.
+- No further DNS-change requests to iMatrix during the transfer window —
+  keep things simple until registration is fully under David's control.
+- Email MX flip: deferred until transfer completes. Then we set up David's
+  own Cloudflare zone, change nameservers at GoDaddy, and flip MX there.
+- Expected completion: 2026-05-26 to 2026-05-28.
+
+Watch for these emails (one goes to davidbennett@bennettvet.com via iMatrix,
+others to GoDaddy signup email):
+- GoDaddy "Verify your domain transfer" — MUST CLICK or transfer auto-cancels
+- register.com release notification — clicking approval link speeds it up
+- GoDaddy "Welcome — transfer complete" — signals next phase
 
 ## ✅ LIVE PREVIEW
 
@@ -76,8 +95,8 @@ Still text-only: **Alamo, Oakland Hills** (city pages) and **Home page hero, Ser
 5. **City photos still to swap in** — Alamo, Oakland Hills (2 city pages); Home page hero; Services page (4 total). David has been delivering photos as he takes them.
 6. **HEIC photo conversions** — bennettvet-pictures folder has HEIC files (Pleasant Hill, more Orinda, more Walnut Creek) that need "Save as JPEG" in Windows Photos before re-running the optimizer.
 7. **CA VMB regulatory disclosure verification** — email vmb@dca.ca.gov to confirm exact wording required.
-8. **DNS cutover at Cloudflare** (not register.com) at launch — change A/CNAME records when David is ready. Planned: early week of 2026-05-19.
-9. **Email migration (Google Workspace)** — paused 2026-05-16 pending Cloudflare credentials. Resumes Monday 2026-05-18. Will create info@bennettvet.com (or davidbennett@bennettvet.com matching iMatrix). Need to: reclaim abandoned Workspace setup, verify domain via Cloudflare DNS, migrate email from iMatrix.
+8. **DNS cutover** at launch — change A/CNAME records when David is ready. ⚠️ 2026-05-21: David doesn't have direct Cloudflare access (iMatrix owns the zone). Plan: after domain transfer completes (~May 28), set up David's own Cloudflare zone with all records pre-staged, change nameservers at GoDaddy to point to his Cloudflare, then flip A/MX records there.
+9. **Email migration (Google Workspace)** — Workspace account `davidbennett@bennettvet.com` exists and outbound mail works. Inbound still flows to iMatrix because MX still points there. ⚠️ 2026-05-21 update: David doesn't have direct Cloudflare access (iMatrix owns the zone). MX flip is now blocked until domain transfer to GoDaddy completes (~May 28) and we set up David's own Cloudflare zone. iMatrix forwarding for `davidbennett@bennettvet.com → bennettvet@gmail.com` was set up 2026-05-21 as interim safety net.
 10. **Google Business Profile rename** in progress — David requested change from "Dr. Bennett's Veterinary House Calls" to "Bennett Veterinary Service" on 2026-05-17. Google's review pending over the weekend. ⚠️ He initially put descriptors in the name field (keyword stuffing); needs to edit to just `Bennett Veterinary Service` (singular, no extra text). Descriptors go in Description field, not name.
 11. **Yelp rename + add "formerly" note** — old Yelp listing has 89 reviews and 16 photos under "Dr. Bennett's Veterinary House Calls." ⚠️ 2026-05-20: Yelp Support confirmed they will NOT change the business name until the website at `bennettvet.com` displays the new name. This means the Yelp rename has to wait for DNS cutover (when the new Netlify site replaces the iMatrix site at `bennettvet.com`). Once cutover happens, request rename via biz.yelp.com — Yelp will verify by re-crawling the site.
 12. **Facebook rename + phone fix** — old FB page has wrong phone (510-758-7921). Should be (925) 519-2316. Old brand name still there.
