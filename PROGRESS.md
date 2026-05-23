@@ -1,6 +1,32 @@
 # Bennett Vet new-site — progress notes
 
-Updated: 2026-05-21. Resume in next session by reading this file first.
+Updated: 2026-05-22. Resume in next session by reading this file first.
+
+## 🔀 BRAND PIVOT (2026-05-22)
+
+Site repositioned from euthanasia-leaning to general veterinary practice
+positioning. Per Google's one-brand-per-website guidance, bennettvet.com
+now represents the GENERAL PRACTICE brand (Bennett Veterinary Service),
+while euthanasia services live at the separate brand Petsforangels.com
+(a Wix site, already live).
+
+What changed across the new (preview) site:
+- Homepage rewritten: hero, content, schema all general-practice
+- 15 city pages: titles changed from "In-Home Pet Euthanasia in X" to
+  "House-Call Veterinarian in X"; body content rewritten with per-city
+  neighborhood snippets; service schema updated
+- Services page: euthanasia section replaced with a subtle link to
+  petsforangels.com; OfferCatalog no longer lists euthanasia
+- About page intro: euthanasia mention removed
+- Footer Quick Links across all 24 HTML pages: "In-Home Pet Euthanasia"
+  → "Pet Euthanasia Services" linking out to petsforangels.com
+- /in-home-pet-euthanasia/ directory: DELETED
+- netlify.toml: all /in-home-pet-euthanasia/* (and the old iMatrix
+  /pet-euthanasia and /what-to-expect inbound redirects) now 301 to
+  https://petsforangels.com/
+
+Old saved feedback "Petsforangles cannot appear on this site" is
+SUPERSEDED by this strategy. See memory project_brand_split.md.
 
 ## 🔔 ACTIVE: Domain transfer in flight (2026-05-21 → ~2026-05-28)
 

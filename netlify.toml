@@ -36,18 +36,35 @@
   to = "/about/"
   status = 301
 
+# Euthanasia content has moved to Pets for Angels — a separate practice
+# dedicated to in-home pet euthanasia. All old euthanasia URLs (whether
+# from the iMatrix site or from earlier versions of this site) 301 to
+# petsforangels.com to preserve SEO equity at the new destination.
 [[redirects]]
-  from = "/pet-euthanasia.html"
-  to = "/in-home-pet-euthanasia/"
+  from = "/in-home-pet-euthanasia/*"
+  to = "https://petsforangels.com/"
   status = 301
+  force = true
 [[redirects]]
-  from = "/pet-euthanasia"
-  to = "/in-home-pet-euthanasia/"
+  from = "/in-home-pet-euthanasia"
+  to = "https://petsforangels.com/"
   status = 301
+  force = true
 [[redirects]]
   from = "/in-home-pet-euthanasia.html"
-  to = "/in-home-pet-euthanasia/"
+  to = "https://petsforangels.com/"
   status = 301
+  force = true
+[[redirects]]
+  from = "/pet-euthanasia.html"
+  to = "https://petsforangels.com/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/pet-euthanasia"
+  to = "https://petsforangels.com/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/veterinary-services.html"
@@ -95,12 +112,14 @@
 
 [[redirects]]
   from = "/what-to-expect.html"
-  to = "/in-home-pet-euthanasia/"
+  to = "https://petsforangels.com/"
   status = 301
+  force = true
 [[redirects]]
   from = "/what-to-expect"
-  to = "/in-home-pet-euthanasia/"
+  to = "https://petsforangels.com/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/contact-us.html"
