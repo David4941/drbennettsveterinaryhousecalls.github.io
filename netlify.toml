@@ -3,9 +3,9 @@
 
 [build]
   publish = "."
-  # Regenerate sitemap.xml on every deploy so <lastmod> and image entries
-  # always reflect the current site without manual maintenance.
-  command = "python3 scripts/build-sitemap.py"
+  # Sitemap auto-generation disabled — python3 not installed on this machine.
+  # We maintain sitemap.xml manually. To re-enable, install Python and uncomment:
+  # command = "python3 scripts/build-sitemap.py"
 
 # Force www → root once we cut over to bennettvet.com on Netlify.
 # Uncomment AFTER the domain is connected (not before — won't affect anything until then):
